@@ -3,7 +3,7 @@ import { services } from "../data";
 import React from "react";
 import ServiceCard from "@/components/ServiceCard";
 
-//import { GetServerSidePropsContext, GetStaticPropsContext } from 'next'
+import { GetServerSidePropsContext, GetStaticPropsContext } from 'next'
 
 export default function index() {
   return (
@@ -42,20 +42,20 @@ export default function index() {
   );
 }
 
-/*export const getServerSideProps = async(context:GetServerSidePropsContext)=>{
+export const getServerSideProps = async(context:GetServerSidePropsContext)=>{
   //calculation
 
-  const res = await fetch("http://localhost:3000/api/services")
+  const res = await fetch(`${process.env.VERCEL_URL}/api/services`)
   const data = await res.json()
   console.log("SERVER",services)
   return {
     props:{
-      services:data.services,
+      endpoint:process.env.VERCEL_URL
     }
   }
 
 }
-export const getStaticProps = async(context:GetStaticPropsContext)=>{
+/*export const getStaticProps = async(context:GetStaticPropsContext)=>{
   //calculation
 
   const res = await fetch("http://localhost:3000/api/services")
