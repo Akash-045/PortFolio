@@ -114,7 +114,7 @@ image_path:"/images/TravelImage.jpeg",
 deployed_url:"https://bookme-m0zg.onrender.com/",
 github_url:"https://github.com/Akash-045",
 category:["Nodejs","Express"],
-key_techs:["React","Material UI","Redux","Typescript","HTML","CSS","GoogleLogin","Passportjs"]
+key_techs:["React","Material UI","Redux","Typescript","HTML","CSS","GoogleLogin","Passportjs","Nodejs","Express"]
 },
 {
    id:3,
@@ -124,7 +124,7 @@ image_path:"/images/ShoeVilla.jpeg",
 deployed_url:"https://shoe-villa-frontend.onrender.com",
 github_url:"https://github.com/Akash-045",
 category:["Nodejs","Express"],
-key_techs:["React","Material UI","Redux","Typescript","HTML","CSS"] 
+key_techs:["React","Material UI","Redux","Typescript","HTML","CSS","Nodejs","Express","MongoDB"] 
 },
 {
    id:4,

@@ -45,7 +45,7 @@ export default function Sidebar() {
       </div>
       {/* Email me */}
       <button className="w-8/12 py-2 my-2 rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none" onClick={()=>window.open('mailto:samantray745@gmail.com')} >Email Me</button>
-      <button className="w-8/12 py-2 my-2 rounded-full bg-gradient-to-r from-green to-blue-400">Toggle Theme</button>
+      
     </div>
   );
 }

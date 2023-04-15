@@ -2,8 +2,7 @@ import Image from "next/image";
 import { services } from "../data";
 import React from "react";
 import ServiceCard from "@/components/ServiceCard";
-import { motion, stagger } from "framer-motion";
-import { fadeInUp } from "@/animations";
+
 //import { GetServerSidePropsContext, GetStaticPropsContext } from 'next'
 
 export default function index() {
@@ -23,8 +22,8 @@ export default function index() {
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
       >
-        <h4 className="my-3 text-xl font-semibold tracking-wide">
-          What I am doing
+        <h4 className="my-3 text-xl font-semibold tracking-wide" style={{color:"black"}}>
+          Skills
         </h4>
 
         <div className="grid gap-6 my-3 md:grid-cols-2">
