@@ -15,7 +15,9 @@ export default function App({ Component, pageProps }: AppProps) {
             {/* //!navbar */}
             <Navbar />
             {/* //!about */}
+            
             <Component {...pageProps} />
+            
          </div>
       </div>
   
